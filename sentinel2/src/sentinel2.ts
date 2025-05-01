@@ -1213,7 +1213,7 @@ const mainEffect = Effect.gen(function* (_) {
   yield* Effect.all(
     [
       runIbcChecksForever,
-      escrowSupplyControlLoop,
+      /*escrowSupplyControlLoop,*/
       fundBabylonAccounts,
       checkBalances,
       checkSSLCertificates
